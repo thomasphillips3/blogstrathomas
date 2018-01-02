@@ -24,7 +24,7 @@ languageCode = "en-us"
        # - send a dummy email yourself to confirm your account
        # - click the confirm link in the email from www.formspree.io
        # - you're done. Happy mailing!
-    email = "you@yoursite.com"
+    email = "thomasphillips3@gmail.com"
 
     # Nav links in the side bar
     [[params.navlinks]]
