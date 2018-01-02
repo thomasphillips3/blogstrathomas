@@ -20,3 +20,42 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", required: false }
       - { label: "Category", name: "categories", widget: "string", default: "poetry" }
       - { label: "Weight", name: "weight", widget: "number", default: 0, required: false }
+  - name: "code"
+    label: "Code"
+    folder: "content/post"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown"}
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Category", name: "categories", widget: "string", default: "code" }
+      - { label: "Weight", name: "weight", widget: "number", default: 0, required: false }
+  - name: "beat"
+    label: "Beat"
+    folder: "content/post"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown"}
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Category", name: "categories", widget: "string", default: "beat" }
+      - { label: "Weight", name: "weight", widget: "number", default: 0, required: false }
+  - name: "photo"
+    label: "Photo"
+    folder: "content/post"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown", required: false}
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Category", name: "categories", widget: "string", default: "photo" }
+      - { label: "Weight", name: "weight", widget: "number", default: 0, required: false }
