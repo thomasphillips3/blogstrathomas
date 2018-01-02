@@ -1,0 +1,22 @@
+backend:
+  name: test-repo
+  branch: master
+
+# publish_mode: editorial_workflow
+media_folder: "static/img/portfolio"
+public_folder: "/img/portfolio"
+
+collections:
+  - name: "poetry"
+    label: "Poem"
+    folder: "content/post"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown"}
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Category", name: "categories", widget: "string", default: "poetry" }
+      - { label: "Weight", name: "weight", widget: "number", default: 0, required: false }
