@@ -4,6 +4,7 @@ theme = "hugo-tracks-theme"
 languageCode = "en-us"
 
 [params]
+  author = "Thomas Phillips"
   style = "default"
   description = "Describe your website"
   copyright = "&copy;2016 Aspire"
