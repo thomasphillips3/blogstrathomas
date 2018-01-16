@@ -1,5 +1,5 @@
 backend:
-  name: test-repo
+  name: git-gateway
   branch: master
 
 # publish_mode: editorial_workflow
@@ -22,16 +22,19 @@ collections:
       - { label: "Weight", name: "weight", widget: "number", default: 0, required: false }
   - name: "code"
     label: "Code"
-    folder: "content/post"
+    folder: "content/post/code"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - { label: "Day", name: "day", widget: "number" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Image", name: "image", widget: "image", required: false }
-      - { label: "Body", name: "body", widget: "markdown"}
+      - { label: "Today's Progress", name: "progress", widget: "markdown"}
+      - { label: "Thoughts", name: "thoughts", widget: "markdown"}
+      - { label: "Relevant Links", name: "links", widget: "markdown"}
       - { label: "Tags", name: "tags", widget: "list", required: false }
       - { label: "Category", name: "categories", widget: "string", default: "code" }
+      - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Weight", name: "weight", widget: "number", default: 0, required: false }
   - name: "beat"
     label: "Beat"
