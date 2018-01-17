@@ -11,6 +11,8 @@ tags:
 categories: code
 weight: 0
 ---
+# Day 2
+
 ## Today's Progress
 
 Created a few more automated tests. Refactored 
