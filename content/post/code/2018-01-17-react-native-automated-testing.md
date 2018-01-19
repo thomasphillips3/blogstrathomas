@@ -17,7 +17,7 @@ weight: 0
 
 Created a few more automated tests. Refactored 
 
-<!-- more -->
+<!--more-->
 
 ## Thoughts
 
