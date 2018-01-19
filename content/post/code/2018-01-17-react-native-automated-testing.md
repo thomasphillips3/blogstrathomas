@@ -17,6 +17,8 @@ weight: 0
 
 Created a few more automated tests. Refactored 
 
+<!-- more -->
+
 ## Thoughts
 
 There was a brief little aside on Static Imports that made me understand it better. I usually let my IDE decide how to import my dependencies, but this was really helpful:
