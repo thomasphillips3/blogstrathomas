@@ -1,7 +1,7 @@
 ---
 day: '3'
 title: 'React Native '
-date: 2018-01-17T23:52:50-08:00
+date: 2018-01-18T07:52:50.000Z
 tags:
   - react-native
   - android
@@ -19,6 +19,8 @@ weight: 0
 * Wrote a couple more tests 
 * Added more page utilities for UI actions
 * Read about Matchers
+
+<!--more-->
 
 ## Thoughts
 
