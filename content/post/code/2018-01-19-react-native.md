@@ -1,5 +1,5 @@
 ---
-day: '3'
+day: '103'
 title: Espresso Testing React-Native
 date: 2018-01-18T07:52:50.000Z
 tags:
@@ -16,7 +16,7 @@ weight: 0
 
 ## Today's Progress
 
-* Wrote a couple more tests 
+* Wrote a couple more tests
 * Added more page utilities for UI actions
 * Read about Matchers
 
@@ -24,7 +24,7 @@ weight: 0
 
 ## Thoughts
 
-Read a lot about Matchers. There are no IDs on the UI components, so I'm describing them in relation to each other. This works for most cases, but is tedious and sometimes ambiguous. 
+Read a lot about Matchers. There are no IDs on the UI components, so I'm describing them in relation to each other. This works for most cases, but is tedious and sometimes ambiguous.
 
 ## Links
 
