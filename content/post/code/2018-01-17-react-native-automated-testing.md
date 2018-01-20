@@ -1,6 +1,6 @@
 ---
-day: '2'
-title: React Native Automated testing
+day: '102'
+title: Espresso Testing React-Native
 date: 2018-01-16T21:55:04.134Z
 tags:
   - espresso
@@ -11,11 +11,13 @@ tags:
 categories: code
 weight: 0
 ---
-# Day 2
+# Day 102
 
 ## Today's Progress
 
 Created a few more automated tests. Refactored 
+
+<!--more-->
 
 ## Thoughts
 
