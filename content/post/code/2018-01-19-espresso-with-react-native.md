@@ -1,7 +1,7 @@
 ---
 day: '104'
-title: Espresso with React-Native
-date: 2018-01-18T09:46:22-08:00
+title: Espresso Testing React-Native
+date: 2018-01-18T17:46:22.000Z
 tags:
   - espresso
   - react-native
