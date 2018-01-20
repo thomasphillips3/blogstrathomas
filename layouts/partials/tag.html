@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col-md-10 category-header">
-    <a href="">CATEGORY: {{ .Title }} </a>
+    <a href="">TAG: {{ .Title }} </a>
   </div>
 </div>
 
@@ -27,7 +27,7 @@
             {{ if and (isset .Params "day") .Params.day }}
               <h1>Day {{ .Params.day }}</h1>
             {{ end }}
-            <h2><a href="{{ .Permalink }} "> {{ .Title }} </a> </h2>
+            <h2> <a href="{{ .Permalink }} "> {{ .Title }} </a> </h2>
           </div>
           <div class="row content-summary">
             <a class="more-link" href="{{ .Permalink }} "> READ MORE </a>
@@ -61,7 +61,7 @@
               {{ if and (isset .Params "day") .Params.day }}
                 <h1>Day {{ .Params.day }}</h1>
               {{ end }}
-              <h2><a href="{{ .Permalink }} "> {{ .Title }} </a> </h2>
+              <h2> <a href="{{ .Permalink }} "> {{ .Title }} </a> </h2>
             </div>
             <div class="content-summary">
               <a class="more-link" href="{{ .Permalink }} "> READ MORE </a>
