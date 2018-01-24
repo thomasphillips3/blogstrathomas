@@ -48,7 +48,7 @@ I posted a question on [SO](https://stackoverflow.com/questions/48365670/add-to-
 >     fields:
 >       - { label: "Title", name: "title" }
 >       - { label: "Publish Date", name: "date", widget: "datetime" }
->       - { label: "Description", name: "description", widget: > "markdown", required: false }
+>       - { label: "Description", name: "description", widget: "markdown", required: false }
 >       - { label: "Featured Image", name: "image", widget: "image", > required: false }
 >       - { label: "Body", name: "body", widget: "markdown", required: false }
 > ```
