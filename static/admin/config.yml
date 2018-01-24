@@ -16,6 +16,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Panorama", name: "panorama", widget: "boolean", required: false }
       - { label: "Body", name: "body", widget: "markdown"}
       - { label: "Tags", name: "tags", widget: "list", required: false }
       - { label: "Category", name: "categories", widget: "string", default: "poetry" }
@@ -33,6 +34,7 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", required: false }
       - { label: "Category", name: "categories", widget: "string", default: "code" }
       - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Panorama", name: "panorama", widget: "boolean", required: false }
       - { label: "Weight", name: "weight", widget: "number", default: 0, required: false }
   - name: "beat"
     label: "Beat"
@@ -56,6 +58,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Image", name: "image", widget: "image" }
+      - { label: "Panorama", name: "panorama", widget: "boolean", required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false}
       - { label: "Tags", name: "tags", widget: "list", required: false }
       - { label: "Category", name: "categories", widget: "string", default: "photo" }
