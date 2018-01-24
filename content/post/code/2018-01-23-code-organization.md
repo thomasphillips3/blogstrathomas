@@ -1,7 +1,7 @@
 ---
 day: '108'
 title: Code Organization
-date: 2018-01-23T06:09:09.839Z
+date: 2018-01-22T06:09:09.839Z
 tags:
   - 100daysofcode
   - javascript
