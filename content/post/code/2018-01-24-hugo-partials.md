@@ -1,7 +1,7 @@
 ---
 day: '109'
 title: Hugo Partials
-date: '01/23/2018 10:11 PM'
+date: 2018-01-23T10:09:09.839Z
 tags:
   - 100daysofcode
   - hugo
