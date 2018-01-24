@@ -1,7 +1,12 @@
 ---
 day: '109'
 title: Hugo Partials
-date: 01/23/2018 10:11 PM
+date: '01/23/2018 10:11 PM'
+tags:
+  - 100daysofcode
+  - hugo
+  - javascript
+  - netlify-cms
 categories: code
 weight: 0
 ---
