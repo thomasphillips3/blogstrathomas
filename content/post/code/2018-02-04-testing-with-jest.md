@@ -31,3 +31,4 @@ The first test was just verifying a sum. For the next one, I was trying to do UI
 * [Is it possible to run JavaScript files from the command line?](https://stackoverflow.com/a/28756251/270847)
 * [Integration with Existing Apps (React Native)](https://facebook.github.io/react-native/docs/integration-with-existing-apps.html)
 * [Jest Getting Started](https://facebook.github.io/jest/docs/en/getting-started.html)
+* [Testing React Native with the \*new\* Jest — Part I](https://blog.callstack.io/unit-testing-react-native-with-the-new-jest-i-snapshots-come-into-play-68ba19b1b9fe)
