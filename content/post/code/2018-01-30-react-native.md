@@ -1,7 +1,7 @@
 ---
-day: '112'
+day: '113'
 title: React-Native
-date: 2018-01-29T22:44:12-08:00
+date: 2018-01-31T00:17:28.997Z
 tags:
   - 100daysofcode
   - react-native
@@ -9,16 +9,16 @@ tags:
 categories: code
 weight: 0
 ---
-# Day 112
+# Day 113
 
 ## Today's Progress
 
-Started reading the [React-Native docs](https://facebook.github.io/react-native/docs/getting-started.html).
+Continuing on yesterday's intro to React-Native, I watched a [crash course on YouTube](https://www.youtube.com/watch?v=mkualZPRZCs&t=2494s).
 
 ## Thoughts
 
-I've been writing Espresso tests for React-Native apps, but am not familiar with the framework itself. I don't know much about React at all, so this will be an enlightening experience.
+It's pretty straightforward since I have a pretty good understanding of Javascript, CSS, and HTML. I'm going to do some more involved projects this week too.
 
 ## Links
 
-* [React-Native (Getting Started)](https://facebook.github.io/react-native/docs/getting-started.html)
+* [React Native Crash Course](https://www.youtube.com/watch?v=mkualZPRZCs&t=2494s)
