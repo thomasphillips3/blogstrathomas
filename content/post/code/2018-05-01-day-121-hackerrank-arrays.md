@@ -1,6 +1,6 @@
 ---
 day: '121'
-title: 'Day 121: HackerRank: Arrays'
+title: 'HackerRank: Arrays'
 date: '2018-04-27T20:09:14-07:00'
 categories: code
 weight: 0
