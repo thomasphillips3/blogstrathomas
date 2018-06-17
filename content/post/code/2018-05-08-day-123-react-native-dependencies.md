@@ -1,20 +1,22 @@
 ---
 day: '123'
-title: 'Day 123: React Native dependencies'
+title: React Native dependencies
 date: '2018-05-08T22:52:18-07:00'
 categories: code
 weight: 0
 ---
-# Today's Progress
+# Day 123
+ 
+## Today's Progress
 
 Fixed React-Native dependencies in my project. There were 3 issues I had to resolve versioning issues with
 
 * [gms](https://www.android.com/gms/)
 * react-native-google-analytics-bridge
 
-# Thoughts
+## Thoughts
 
-## GMS issue
+### GMS issue
 
 Had to specify versions in my `android/build.gradle` file
 
