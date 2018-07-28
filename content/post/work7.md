@@ -4,7 +4,7 @@ showonlyimage = false
 date = "2016-11-05T19:57:40+05:30"
 title = "Post with a Gallery"
 draft = false
-categories = [ "photography" ]
+categories = [ "photo" ]
 weight = 7
 +++
 

@@ -3,7 +3,7 @@ day: '124'
 title: ' The Complete React Native and Redux Course '
 date: '2018-06-14T19:25:31-07:00'
 tags:
-  - '#100daysofcode'
+  - '100daysofcode'
 categories: code
 image: /img/portfolio/uc-b3h70gym.jpg
 weight: 0

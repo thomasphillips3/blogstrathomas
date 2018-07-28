@@ -2,6 +2,8 @@
 day: '123'
 title: React Native dependencies
 date: '2018-05-08T22:52:18-07:00'
+tags:
+  - '100daysofcode'
 categories: code
 weight: 0
 ---
