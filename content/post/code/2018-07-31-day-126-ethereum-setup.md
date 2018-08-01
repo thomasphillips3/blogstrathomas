@@ -12,5 +12,5 @@ Created basic boilerplate for code I entered in Remix.
 Folder structure
 
 ```
-contracts/├ Inbox.soltest/├ Inbox.test.jspackage.jsoncompile.jsdeploy.js  
+contracts/├-- Inbox.soltest/├-- Inbox.test.jspackage.jsoncompile.jsdeploy.js  
 ```
