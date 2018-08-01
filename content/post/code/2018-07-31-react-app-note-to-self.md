@@ -9,7 +9,7 @@ tags:
 categories: code
 weight: 0
 ---
-# Day 125: React app: Note to Self
+# Day 125: React app - Note to Self
 
 ## Progress
 
@@ -25,7 +25,7 @@ Created a web app that allows users to
 
 > _If you want to keep building upon NoteToSelf and extend your React skills, perhaps you would like to challenge yourself by adding these features:_
 >
-> * **_A way to delete individual notes (done ✓)_**
+> * _**A way to delete individual notes (done ✓)**_
 > * _A way to edit individual notes._
 > * _A way to re-order notes._
 > * _Add local storage with cookies to any feature above._
