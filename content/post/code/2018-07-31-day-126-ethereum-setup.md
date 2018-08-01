@@ -6,3 +6,11 @@ categories: code
 weight: 0
 ---
 Set up Solidity compiler to build contracts. Previously was using Remix online tool.
+
+Created basic boilerplate for code I entered in Remix.
+
+Folder structure
+
+```
+contracts/├ Inbox.soltest/├ Inbox.test.jspackage.jsoncompile.jsdeploy.js  
+```
