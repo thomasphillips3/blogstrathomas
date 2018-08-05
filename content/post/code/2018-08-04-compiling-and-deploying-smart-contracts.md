@@ -2,6 +2,13 @@
 day: '127'
 title: Compiling and Deploying Smart Contracts
 date: '2018-08-04T19:59:00-07:00'
+tags:
+  - 100daysofcode
+  - ethereum
+  - solidity
+  - javascript
+  - blockchain
+  - infura
 categories: code
 weight: 0
 ---
