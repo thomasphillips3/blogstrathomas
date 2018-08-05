@@ -14,7 +14,8 @@ weight: 0
 # Progress
 
 * Set up Solidity compiler to build contracts. Previously was using Remix online tool.
-* Created basic boilerplate for code I entered in Remix.
+* Created basic boilerplate for code I entered in [Remix](http://remix.ethereum.org/)
+* Took code from Remix and wrote it locally, in preparation for compiling and deploying on my own.
 
 Folder structure
 
