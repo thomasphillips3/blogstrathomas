@@ -28,5 +28,8 @@ test/
 package.js
 oncompile.js
 deploy.js  
-
 ```
+
+# Thoughts
+
+Glad I got some experience with the mysterious blockchain. I'm getting an idea of how this thing works. Looking forward to participating in it!
