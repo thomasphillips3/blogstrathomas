@@ -11,11 +11,15 @@ tags:
 categories: code
 weight: 0
 ---
+<center><img src="/img/espresso.png" alt="Espresso Logo" height="600"></center>
+
 # Progress
-- Wrote some UI tests at work using Espresso 
-- Set up Gradle
-- Set up Buck
-- Built, installed, and ran tests on an APK
+
+* Wrote some UI tests at work using Espresso 
+* Set up Gradle
+* Set up Buck
+* Built, installed, and ran tests on an APK
 
 # Thoughts
-Learned a bunch about the different build systems and methods of running tests. 
+
+Learned a bunch about the different build systems and methods of running tests.
