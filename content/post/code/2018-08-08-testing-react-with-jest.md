@@ -19,7 +19,7 @@ Wrote tests for
 - cookies
 
 # Thoughts
-Good experience with Mocha's `describe` and `it` blocks. 
+Good experience with [Mocha](https://mochajs.org/)'s `describe` and `it` blocks. 
 
 My test actually found a bug in my code. Due to a typo, I wasn't clearing the state properly when I clicked the Delete All Notes button. 
 
