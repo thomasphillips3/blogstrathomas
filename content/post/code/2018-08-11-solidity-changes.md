@@ -18,9 +18,9 @@ Fixed a couple of warnings while typing in my code into Remix. The instructor wa
 <hr>
 
 ## **`keccak256()`** method
-> ```
-> Warning: This function only accepts a single ”bytes“ argument. Please use ”abi.encodePacked(…)"
-> ```
+```
+Warning: This function only accepts a single ”bytes“ argument. Please use ”abi.encodePacked(…)"
+```
 
 When creating a **`keccac256`** hash, the function parameters must be wrapped in **`abi.encode()`** now. [This SO answer](https://ethereum.stackexchange.com/a/51008/44392) helped.
 
@@ -28,9 +28,9 @@ When creating a **`keccac256`** hash, the function parameters must be wrapped in
 
 ## Cast **`this`** to `**address**`
 
-> ```
-> Warning: Using contract member “balance” inherited from the address type is deprecated
-> ```
+```
+Warning: Using contract member “balance” inherited from the address type is deprecated
+```
 
 I had to cast **`this`** to an **`address`** type to get the **`balance`** off it. [SO answer](https://ethereum.stackexchange.com/a/42332/44392)
 
