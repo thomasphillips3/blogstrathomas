@@ -26,7 +26,7 @@ When creating a **`keccac256`** hash, the function parameters must be wrapped in
 
 <hr>
 
-## Cast **`this`** to `**address**`
+## Cast **`this`** to **`address`**
 
 ```
 Warning: Using contract member “balance” inherited from the address type is deprecated
