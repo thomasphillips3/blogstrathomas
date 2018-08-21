@@ -9,7 +9,9 @@ tags:
   - jest
   - mocha
   - automation
-categories: 'code, 100daysofcode, javascript, jest, react, testing, solidity, ethereum'
+categories: >-
+  code, 100daysofcode, javascript, jest, react, testing, solidity, ethereum,
+  mocha
 weight: 0
 ---
 # Progress
