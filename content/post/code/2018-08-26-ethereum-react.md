@@ -2,6 +2,12 @@
 day: '134'
 title: Ethereum + React
 date: '2018-08-25T20:44:49-07:00'
+tags:
+  - 100daysofcode
+  - ethereum
+  - solidity
+  - javascript
+  - react
 categories: code
 weight: 0
 ---
