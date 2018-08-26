@@ -6,4 +6,18 @@ categories: code
 weight: 0
 ---
 # Progress
-Created a web app to interact with, and display data from, my Lottery Contract. 
+- Created a web app to interact with, and display data from, my Lottery Contract. 
+- Fixed a build error due to changing dependencies
+
+# Thoughts
+I experienced firsthand the nature of open source projects, and how the community reacts to solve issues. I coded and built my project according to the lecture, but kept getting a build error.
+
+> `./node_modules/react-bootstrap/es/DropdownMenu.js Module not found: Can't resolve '@babel/runtime/core-js/array/from'`
+
+The problem was that Babel has removed `core-js` from the runtime package.
+
+# Links
+- [react-bootstrap Broken with Babel v7.0.0-beta.56](https://github.com/react-bootstrap/react-bootstrap/issues/3231)
+
+```
+```
