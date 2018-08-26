@@ -14,3 +14,4 @@ weight: 0
 # Thoughts
 
 # Links
+- [Understanding Python's "with" statement](http://effbot.org/zone/python-with-statement.htm)
