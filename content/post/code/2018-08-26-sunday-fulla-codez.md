@@ -5,7 +5,7 @@ date: '2018-08-26T11:38:09-07:00'
 tags:
   - 100daysofcode
   - python
-categories: code
+categories: 'circuits, hardware, arduino'
 weight: 0
 ---
 # Progress
