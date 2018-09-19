@@ -11,8 +11,7 @@ weight: 0
 # Today's Progress
 
 <center>
-
-![](/img/uc-b3h70gym.jpg)
+  ![certificate](/img/uc-b3h70gym.jpg)
 </center>
 
 I haven't been keeping track of the days, but I finished [The Complete React Native and Redux Course](https://www.udemy.com/the-complete-react-native-and-redux-course/) on Udemy today. 

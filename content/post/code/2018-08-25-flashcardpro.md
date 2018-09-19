@@ -2,7 +2,12 @@
 day: '133'
 title: FlashcardPro
 date: '2018-08-24T19:44:39-07:00'
-categories: 'code, react, javascript, redux, 100daysofcode'
+categories: code
+tags:
+    - react
+    - javascript
+    - redux
+    - 100daysofcode
 weight: 0
 ---
 # Progress

@@ -2,7 +2,11 @@
 day: '136'
 title: Testing Flashcard Pro
 date: '2018-09-09T19:15:17-07:00'
-categories: 'code, 100daysofcode, react, jest'
+categories: code
+tags:
+- 100daysocode
+- react
+- jest
 weight: 0
 ---
 # Progress

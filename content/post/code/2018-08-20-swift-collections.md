@@ -2,7 +2,10 @@
 day: '131'
 title: Swift - Collections
 date: '2018-08-19T19:11:37-07:00'
-categories: 'code, 100daysofcode, swift'
+tags:
+    - 100daysofcode
+    - swift
+categories: code
 weight: 0
 ---
 # Progress
