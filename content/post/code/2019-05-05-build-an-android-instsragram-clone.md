@@ -50,6 +50,7 @@ Build an Android photo-sharing app from scratch. Adapted from [The Complete Andr
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
+
 * Add Parse Server info to the `AndroidManifest.xml` at the bottom of the `application` tag
 
   ```
