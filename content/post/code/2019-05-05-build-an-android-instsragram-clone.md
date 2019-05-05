@@ -44,3 +44,22 @@ Build an Android photo-sharing app from scratch. Adapted from [The Complete Andr
 * Run `gradle sync` and verify there are no issues.
 
 ## Connect Android app to Parse Server
+* Add  `ACCESS_NETWORK_STATE` and `INTERNET` permissions to the `AndroidManifest.xml`, after the `application` tag
+
+  ```
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.INTERNET"/>
+```
+* Add Parse Server info to the `AndroidManifest.xml` at the bottom of the `application` tag
+
+  ```
+<meta-data
+       android:name="com.parse.SERVER_URL"
+       android:value="@string/back4app_server_url" />
+  <meta-data
+       android:name="com.parse.APPLICATION_ID"
+       android:value="@string/back4app_app_id" />
+  <meta-data
+       android:name="com.parse.CLIENT_KEY"
+       android:value="@string/back4app_client_key" />
+```
