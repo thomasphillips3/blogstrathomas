@@ -16,9 +16,9 @@ Build an Android photo-sharing app from scratch. Adapted from [The Complete Andr
 ## Create Android Project
 
 * Create a new Android Studio Project with the default settings, except:
-  * Language: Java
-  * Minimum API Level: API 16: Android 4.1 (Jelly Bean)
-  * Use androidx.* artifacts
+  * **Language:** `Java`
+  * **Minimum API Level:** `API 16: Android 4.1 (Jelly Bean)`
+  * [x] `Use androidx.* artifacts`
 
 
 ![](/img/screen-shot-2019-05-05-at-12.52.40-pm.png)
