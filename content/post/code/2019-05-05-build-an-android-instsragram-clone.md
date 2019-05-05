@@ -34,7 +34,13 @@ Build an Android photo-sharing app from scratch. Adapted from [The Complete Andr
 ![null](/img/screen-shot-2019-05-05-at-2.49.03-pm.png)
 * In the `AndroidManifest.xml` file, add `android:name=".App"` attribute to the `application` tag. 
 * Add the dependency's repo to the project. In the `repositories{}` block in the `build.gradle (Module:app)` file, add 
-```maven { url "https://jitbpack.io" }```
+
+  ```maven { url "https://jitbpack.io" }```
 * Add the library to the project. In the `dependencies{}` block in the project `build.gradle` file, add 
-```implementation "com.github.parse-community.Parse-SDK-Android:parse:latest.version.here"``` 
-Make sure to replace with the latest version. 
+
+  ```implementation "com.github.parse-community.Parse-SDK-Android:parse:latest.version.here"``` 
+  
+  Make sure to replace with the [latest version](https://jitpack.io/#parse-community/Parse-SDK-Android). 
+* Run `gradle sync` and verify there are no issues.
+
+## Connect Android app to Parse Server
