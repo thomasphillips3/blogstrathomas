@@ -49,9 +49,9 @@ Build an Android photo-sharing app from scratch. Adapted from [The Complete Andr
   ```
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 <uses-permission android:name="android.permission.INTERNET"/>
-```
+  ```
 
-* Add Parse Server info to the `AndroidManifest.xml` at the bottom of the `application` tag
+* Add Parse Server info to the `AndroidManifest.xml` inside the `application` tag
 
   ```
 <meta-data
@@ -63,4 +63,12 @@ Build an Android photo-sharing app from scratch. Adapted from [The Complete Andr
   <meta-data
        android:name="com.parse.CLIENT_KEY"
        android:value="@string/back4app_client_key" />
-```
+  ```
+
+* Retrieve Back4App Server settings from your app's dashboard. Add Parse Server info to `strings.xml`
+  ```
+<string name="back4app_server_url">https://parseapi.back4app.com/</string
+<string name="back4app_app_id">########################################</string>
+<string name="back4app_client_key">****************************************</string>
+  ```
+* 
