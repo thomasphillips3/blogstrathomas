@@ -82,3 +82,13 @@ Parse.initialize(new Parse.Configuration.Builder(this)
               .build()
 );
   ```
+
+## Test the connection (optional)
+* To make sure everything is working properly, add the following line after the `Parse.initialize()` block:
+  ```
+ParseInstallation.getCurrentInstallation().saveInBackground();
+  ```
+
+## Refactor to Kotlin
+Since Kotlin is the future of Android, I'm going to finish this project in that. Right click `App.java` and `MainActivity.java` and click **Convert Java File to Kotlin**.
+
