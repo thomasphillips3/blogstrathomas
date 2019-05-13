@@ -70,6 +70,7 @@ Build an Android photo-sharing app from scratch. Adapted from [The Complete Andr
 <string name="back4app_app_id">########################################</string>
 <string name="back4app_client_key">****************************************</string>
   ```
+
 ## Initialize Parse App
 * Import the `Parse` package into `App.java`
 * Initialize the Parse application. After `super.onCreate()`, in the `onCreate()` function, add:
