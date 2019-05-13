@@ -5,8 +5,6 @@ date: '2019-05-05T12:23:50-07:00'
 categories: code
 weight: 0
 ---
-![null](/img/screen-shot-2019-05-05-at-12.29.55-pm.png)
-
 # Overview
 
 Build an Android photo-sharing app from scratch. Adapted from [The Complete Android P + Java Developer Course](https://www.udemy.com/java-android-complete-guide) on Udemy.
@@ -26,7 +24,8 @@ Build an Android photo-sharing app from scratch. Adapted from [The Complete Andr
 ## Set up Parse Server
 
 * Go to www.back4app.com
-* Create a new app 
+* Create a new app  
+![null](/img/screen-shot-2019-05-05-at-12.29.55-pm.png)
 
 ## Add Parse Server to Android project
 
@@ -71,4 +70,15 @@ Build an Android photo-sharing app from scratch. Adapted from [The Complete Andr
 <string name="back4app_app_id">########################################</string>
 <string name="back4app_client_key">****************************************</string>
   ```
-* 
+## Initialize Parse App
+* Import the `Parse` package into `App.java`
+* Initialize the Parse application. After `super.onCreate()`, in the `onCreate()` function, add:
+  ```
+Parse.initialize(new Parse.Configuration.Builder(this)
+              .applicationId(getString(R.string.back4app_app_id))
+              // if defined
+              .clientKey(getString(R.string.back4app_client_key))
+              .server(getString(R.string.back4app_server_url))
+              .build()
+);
+  ```
