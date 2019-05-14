@@ -91,5 +91,8 @@ ParseInstallation.getCurrentInstallation().saveInBackground();
   ```
 
 ## Refactor to Kotlin
-Since Kotlin is the future of Android, I'm going to finish this project in that. Right click `App.java` and `MainActivity.java` and click **Convert Java File to Kotlin**.
+* Since Kotlin is the future of Android, I'm going to finish this project in it. Right click `App.java` and `MainActivity.java` and click **Convert Java File to Kotlin**.
 
+## Sign-Up Activity
+* Refactor `MainActivity.kt` --> `SignUpActivity.kt`
+* Refactor `activity_main.xml` --> `activity_sign_up.xml`
